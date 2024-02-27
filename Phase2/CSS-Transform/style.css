@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 100px;
+
+    /* ย้ายตำแหน่งกล่อง */
+    /* transform: translate(100px,100px); */
+
+    /* การหมุน */
+    /* transform: rotateY(20deg); */
+    /* transform: rotateX(20deg); */
+
+    /* การขยาย */
+    /* transform: scale(2,2); */
+
+    /* การเอียง */
+    /* transform: skewX(10deg); */
+    /* transform: skewY(20deg); */
+    /* transform: skew(10deg,20deg); */
+}

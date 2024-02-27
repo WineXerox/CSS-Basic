@@ -1,0 +1,14 @@
+a{
+    background-color: aquamarine;
+}
+a[target]{
+    background-color: black;
+    color: white;
+}
+a[target='_blank']{
+    background-color: black;
+    color: pink;
+}
+a[target='_self']{
+    color: orange;
+}

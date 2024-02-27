@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    /* 2 คอลัมน์ */
+    /* grid-template-columns: 2fr 4fr; */
+    /* 3 แถว */
+    /* grid-template-rows: 2fr 5fr 2fr; */
+
+    grid-template: 
+    'header header' 3fr
+    'sidebar content' 10fr
+    'footer footer' 2fr
+    / 1fr 4fr
+    ;
+}
+.header-item{
+    background-color: aquamarine;
+    grid-area: header;
+}
+.content-item{
+    background-color: burlywood;
+    grid-area: content;
+}
+.footer-item{
+    background-color: blueviolet;
+    grid-area: footer;
+}
+.sidebar-item{
+    background-color: blue;
+    grid-area: sidebar;
+}

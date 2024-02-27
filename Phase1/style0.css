@@ -1,0 +1,8 @@
+p#message{
+    font-style: italic;
+    font-size: 16px;
+    color: orange;
+}
+h1.title{
+    color: pink;
+}
